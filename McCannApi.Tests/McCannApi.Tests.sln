@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McCannApi.Tests", "McCannApi.Tests\McCannApi.Tests.csproj", "{D07E9CB1-B0C9-4AFB-89A8-EA7297BEC489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McCannApi.Api", "..\McCannApi.Api\McCannApi.Api.csproj", "{ECC455A8-8FBE-40E6-9D7E-CF8555AC4384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McCannApi.Domain", "McCannApi.Domain\McCannApi.Domain.csproj", "{FB432A54-D8CB-410E-B558-7915FA32AD19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D07E9CB1-B0C9-4AFB-89A8-EA7297BEC489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07E9CB1-B0C9-4AFB-89A8-EA7297BEC489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07E9CB1-B0C9-4AFB-89A8-EA7297BEC489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07E9CB1-B0C9-4AFB-89A8-EA7297BEC489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC455A8-8FBE-40E6-9D7E-CF8555AC4384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC455A8-8FBE-40E6-9D7E-CF8555AC4384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC455A8-8FBE-40E6-9D7E-CF8555AC4384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC455A8-8FBE-40E6-9D7E-CF8555AC4384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB432A54-D8CB-410E-B558-7915FA32AD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB432A54-D8CB-410E-B558-7915FA32AD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB432A54-D8CB-410E-B558-7915FA32AD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB432A54-D8CB-410E-B558-7915FA32AD19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
