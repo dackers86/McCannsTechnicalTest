@@ -38,6 +38,9 @@
     <Reference Include="CsQuery">
       <HintPath>..\packages\CsQuery.1.3.3\lib\net40\CsQuery.dll</HintPath>
     </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1409.1722\lib\net40\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="Nancy">
       <HintPath>..\packages\Nancy.1.0.0\lib\net40\Nancy.dll</HintPath>
     </Reference>
@@ -64,7 +67,7 @@
   <ItemGroup>
     <Compile Include="CustomerModuleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BasicModuleTests.cs" />
+    <Compile Include="BaseModuleTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -73,6 +76,18 @@
     <ProjectReference Include="..\..\McCannApi.Api\McCannApi.Api.csproj">
       <Project>{ecc455a8-8fbe-40e6-9d7e-cf8555ac4384}</Project>
       <Name>McCannApi.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\McCannApi.Domain\McCannApi.Domain.csproj">
+      <Project>{fb432a54-d8cb-410e-b558-7915fa32ad19}</Project>
+      <Name>McCannApi.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\McCannApi.Repository\McCannApi.Repository.csproj">
+      <Project>{66c8a4ff-7df9-4eca-8516-1690df077c68}</Project>
+      <Name>McCannApi.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\McCannApi.Service\McCannApi.Service.csproj">
+      <Project>{705cdc84-2cb0-4f5e-b7ee-8f1c933eb57b}</Project>
+      <Name>McCannApi.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -97,6 +97,10 @@
       <Project>{fb432a54-d8cb-410e-b558-7915fa32ad19}</Project>
       <Name>McCannApi.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\McCannApi.Tests\McCannApi.Service\McCannApi.Service.csproj">
+      <Project>{705cdc84-2cb0-4f5e-b7ee-8f1c933eb57b}</Project>
+      <Name>McCannApi.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
