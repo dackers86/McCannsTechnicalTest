@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McCannApi.Repository", "McC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McCannApi.Service", "McCannApi.Service\McCannApi.Service.csproj", "{705CDC84-2CB0-4F5E-B7EE-8F1C933EB57B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McCannApi.Service.Tests", "McCannApi.Service.Tests\McCannApi.Service.Tests.csproj", "{3096B5B6-3C9C-42EE-8CE5-A4E798C78AA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0F760C3A-1455-4518-BCC4-AFCE38879DB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,8 +43,16 @@ Global
 		{705CDC84-2CB0-4F5E-B7EE-8F1C933EB57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{705CDC84-2CB0-4F5E-B7EE-8F1C933EB57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{705CDC84-2CB0-4F5E-B7EE-8F1C933EB57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3096B5B6-3C9C-42EE-8CE5-A4E798C78AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3096B5B6-3C9C-42EE-8CE5-A4E798C78AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3096B5B6-3C9C-42EE-8CE5-A4E798C78AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3096B5B6-3C9C-42EE-8CE5-A4E798C78AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D07E9CB1-B0C9-4AFB-89A8-EA7297BEC489} = {0F760C3A-1455-4518-BCC4-AFCE38879DB3}
+		{3096B5B6-3C9C-42EE-8CE5-A4E798C78AA6} = {0F760C3A-1455-4518-BCC4-AFCE38879DB3}
 	EndGlobalSection
 EndGlobal

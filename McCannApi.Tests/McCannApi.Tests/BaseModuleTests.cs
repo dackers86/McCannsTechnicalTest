@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Nancy;
 using Nancy.Testing;
+using McCannApi.Api.Modules;
 
 namespace McCannApi.Tests
 {
@@ -11,8 +12,7 @@ namespace McCannApi.Tests
         [TestMethod]
         public void WhenHTTPBaseRouteRequested_ItShouldReturnStatus403()
         {
-            var bootstrapper = new DefaultNancyBootstrapper();
-            var browser = new Browser(bootstrapper);
+            var browser = new Browser(x => x.Module<BaseModule>());
 
             var result = browser.Get("/", with =>
             {
